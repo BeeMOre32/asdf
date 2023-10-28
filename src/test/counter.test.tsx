@@ -1,7 +1,7 @@
 import React from "react";
 import { fireEvent, render, screen, waitFor } from "@testing-library/react";
 import userEvent from "@testing-library/user-event";
-import Counter from "./counter";
+import Counter from "../counter";
 describe("Testing Counter component", () => {
   let unmount: () => void;
   beforeEach(() => {
